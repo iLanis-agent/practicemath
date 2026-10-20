@@ -1,0 +1,1951 @@
+[
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "60",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 60 BPM in steps of 1 the ramp holds 41 stops. At 8 measures of 4 beats per stop the whole ramp takes 36 minutes 14 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "60",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 60 BPM in steps of 5 the ramp holds 9 stops. At 8 measures of 4 beats per stop the whole ramp takes 8 minutes 8 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "60",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 60 BPM in steps of 7 the ramp holds 6 stops. The steps never land on 60; the last stop is 55 BPM. At 8 measures of 4 beats per stop the whole ramp takes 5 minutes 45 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "60",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 60 BPM in steps of 33 the ramp holds 2 stops. The steps never land on 60; the last stop is 53 BPM. At 8 measures of 4 beats per stop the whole ramp takes 2 minutes 12 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "60",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 60 BPM in steps of 100 the ramp holds 1 stop. The steps never land on 60; the last stop is 20 BPM. At 8 measures of 4 beats per stop the whole ramp takes 1 minute 36 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "120",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 120 BPM in steps of 1 the ramp holds 101 stops. At 8 measures of 4 beats per stop the whole ramp takes 58 minutes 17 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "120",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 120 BPM in steps of 5 the ramp holds 21 stops. At 8 measures of 4 beats per stop the whole ramp takes 12 minutes 26 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "120",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 120 BPM in steps of 7 the ramp holds 15 stops. The steps never land on 120; the last stop is 118 BPM. At 8 measures of 4 beats per stop the whole ramp takes 9 minutes 6 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "120",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 120 BPM in steps of 33 the ramp holds 4 stops. The steps never land on 120; the last stop is 119 BPM. At 8 measures of 4 beats per stop the whole ramp takes 2 minutes 51 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "120",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 120 BPM in steps of 100 the ramp holds 2 stops. At 8 measures of 4 beats per stop the whole ramp takes 1 minute 52 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "240",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 240 BPM in steps of 1 the ramp holds 221 stops. At 8 measures of 4 beats per stop the whole ramp takes 80 minutes 23 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "240",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 240 BPM in steps of 5 the ramp holds 45 stops. At 8 measures of 4 beats per stop the whole ramp takes 16 minutes 48 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "240",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 240 BPM in steps of 7 the ramp holds 32 stops. The steps never land on 240; the last stop is 237 BPM. At 8 measures of 4 beats per stop the whole ramp takes 12 minutes 13 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "240",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 240 BPM in steps of 33 the ramp holds 7 stops. The steps never land on 240; the last stop is 218 BPM. At 8 measures of 4 beats per stop the whole ramp takes 3 minutes 23 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "240",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 240 BPM in steps of 100 the ramp holds 3 stops. The steps never land on 240; the last stop is 220 BPM. At 8 measures of 4 beats per stop the whole ramp takes 2 minutes 1 second."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "400",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 400 BPM in steps of 1 the ramp holds 381 stops. At 8 measures of 4 beats per stop the whole ramp takes 96 minutes 43 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "400",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 400 BPM in steps of 5 the ramp holds 77 stops. At 8 measures of 4 beats per stop the whole ramp takes 20 minutes 3 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "400",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 400 BPM in steps of 7 the ramp holds 55 stops. The steps never land on 400; the last stop is 398 BPM. At 8 measures of 4 beats per stop the whole ramp takes 14 minutes 33 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "400",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 400 BPM in steps of 33 the ramp holds 12 stops. The steps never land on 400; the last stop is 383 BPM. At 8 measures of 4 beats per stop the whole ramp takes 3 minutes 53 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20",
+   "400",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 20 to 400 BPM in steps of 100 the ramp holds 4 stops. The steps never land on 400; the last stop is 320 BPM. At 8 measures of 4 beats per stop the whole ramp takes 2 minutes 7 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "60",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 60 BPM in steps of 1 the ramp holds 1 stop. At 8 measures of 4 beats per stop the whole ramp takes 32 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "60",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 60 BPM in steps of 5 the ramp holds 1 stop. At 8 measures of 4 beats per stop the whole ramp takes 32 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "60",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 60 BPM in steps of 7 the ramp holds 1 stop. At 8 measures of 4 beats per stop the whole ramp takes 32 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "60",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 60 BPM in steps of 33 the ramp holds 1 stop. At 8 measures of 4 beats per stop the whole ramp takes 32 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "60",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 60 BPM in steps of 100 the ramp holds 1 stop. At 8 measures of 4 beats per stop the whole ramp takes 32 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 120 BPM in steps of 1 the ramp holds 61 stops. At 8 measures of 4 beats per stop the whole ramp takes 22 minutes 35 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 120 BPM in steps of 5 the ramp holds 13 stops. At 8 measures of 4 beats per stop the whole ramp takes 4 minutes 50 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 120 BPM in steps of 7 the ramp holds 9 stops. The steps never land on 120; the last stop is 116 BPM. At 8 measures of 4 beats per stop the whole ramp takes 3 minutes 25 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 120 BPM in steps of 33 the ramp holds 2 stops. The steps never land on 120; the last stop is 93 BPM. At 8 measures of 4 beats per stop the whole ramp takes 53 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 120 BPM in steps of 100 the ramp holds 1 stop. The steps never land on 120; the last stop is 60 BPM. At 8 measures of 4 beats per stop the whole ramp takes 32 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "240",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 240 BPM in steps of 1 the ramp holds 181 stops. At 8 measures of 4 beats per stop the whole ramp takes 44 minutes 42 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "240",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 240 BPM in steps of 5 the ramp holds 37 stops. At 8 measures of 4 beats per stop the whole ramp takes 9 minutes 13 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "240",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 240 BPM in steps of 7 the ramp holds 26 stops. The steps never land on 240; the last stop is 235 BPM. At 8 measures of 4 beats per stop the whole ramp takes 6 minutes 35 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "240",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 240 BPM in steps of 33 the ramp holds 6 stops. The steps never land on 240; the last stop is 225 BPM. At 8 measures of 4 beats per stop the whole ramp takes 1 minute 38 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "240",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 240 BPM in steps of 100 the ramp holds 2 stops. The steps never land on 240; the last stop is 160 BPM. At 8 measures of 4 beats per stop the whole ramp takes 44 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "400",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 400 BPM in steps of 1 the ramp holds 341 stops. At 8 measures of 4 beats per stop the whole ramp takes 61 minutes 1 second."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "400",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 400 BPM in steps of 5 the ramp holds 69 stops. At 8 measures of 4 beats per stop the whole ramp takes 12 minutes 27 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "400",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 400 BPM in steps of 7 the ramp holds 49 stops. The steps never land on 400; the last stop is 396 BPM. At 8 measures of 4 beats per stop the whole ramp takes 8 minutes 56 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "400",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 400 BPM in steps of 33 the ramp holds 11 stops. The steps never land on 400; the last stop is 390 BPM. At 8 measures of 4 beats per stop the whole ramp takes 2 minutes 9 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "400",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 400 BPM in steps of 100 the ramp holds 4 stops. The steps never land on 400; the last stop is 360 BPM. At 8 measures of 4 beats per stop the whole ramp takes 57 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "60",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "60",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "60",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "60",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "60",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "120",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 120 BPM in steps of 1 the ramp holds 21 stops. At 8 measures of 4 beats per stop the whole ramp takes 6 minutes 8 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "120",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 120 BPM in steps of 5 the ramp holds 5 stops. At 8 measures of 4 beats per stop the whole ramp takes 1 minute 28 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "120",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 120 BPM in steps of 7 the ramp holds 3 stops. The steps never land on 120; the last stop is 114 BPM. At 8 measures of 4 beats per stop the whole ramp takes 54 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "120",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 120 BPM in steps of 33 the ramp holds 1 stop. The steps never land on 120; the last stop is 100 BPM. At 8 measures of 4 beats per stop the whole ramp takes 19 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "120",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 120 BPM in steps of 100 the ramp holds 1 stop. The steps never land on 120; the last stop is 100 BPM. At 8 measures of 4 beats per stop the whole ramp takes 19 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "240",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 240 BPM in steps of 1 the ramp holds 141 stops. At 8 measures of 4 beats per stop the whole ramp takes 28 minutes 15 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "240",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 240 BPM in steps of 5 the ramp holds 29 stops. At 8 measures of 4 beats per stop the whole ramp takes 5 minutes 50 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "240",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 240 BPM in steps of 7 the ramp holds 21 stops. At 8 measures of 4 beats per stop the whole ramp takes 4 minutes 14 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "240",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 240 BPM in steps of 33 the ramp holds 5 stops. The steps never land on 240; the last stop is 232 BPM. At 8 measures of 4 beats per stop the whole ramp takes 1 minute 3 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "240",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 240 BPM in steps of 100 the ramp holds 2 stops. The steps never land on 240; the last stop is 200 BPM. At 8 measures of 4 beats per stop the whole ramp takes 29 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "400",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 400 BPM in steps of 1 the ramp holds 301 stops. At 8 measures of 4 beats per stop the whole ramp takes 44 minutes 34 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "400",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 400 BPM in steps of 5 the ramp holds 61 stops. At 8 measures of 4 beats per stop the whole ramp takes 9 minutes 4 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "400",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 400 BPM in steps of 7 the ramp holds 43 stops. The steps never land on 400; the last stop is 394 BPM. At 8 measures of 4 beats per stop the whole ramp takes 6 minutes 28 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "400",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 400 BPM in steps of 33 the ramp holds 10 stops. The steps never land on 400; the last stop is 397 BPM. At 8 measures of 4 beats per stop the whole ramp takes 1 minute 33 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "100",
+   "400",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 100 to 400 BPM in steps of 100 the ramp holds 4 stops. At 8 measures of 4 beats per stop the whole ramp takes 40 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "60",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "60",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "60",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "60",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "60",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "120",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "120",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "120",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "120",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "120",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "240",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 240 to 240 BPM in steps of 1 the ramp holds 1 stop. At 8 measures of 4 beats per stop the whole ramp takes 8 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "240",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 240 to 240 BPM in steps of 5 the ramp holds 1 stop. At 8 measures of 4 beats per stop the whole ramp takes 8 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "240",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 240 to 240 BPM in steps of 7 the ramp holds 1 stop. At 8 measures of 4 beats per stop the whole ramp takes 8 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "240",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 240 to 240 BPM in steps of 33 the ramp holds 1 stop. At 8 measures of 4 beats per stop the whole ramp takes 8 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "240",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 240 to 240 BPM in steps of 100 the ramp holds 1 stop. At 8 measures of 4 beats per stop the whole ramp takes 8 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "400",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 240 to 400 BPM in steps of 1 the ramp holds 161 stops. At 8 measures of 4 beats per stop the whole ramp takes 16 minutes 27 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "400",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 240 to 400 BPM in steps of 5 the ramp holds 33 stops. At 8 measures of 4 beats per stop the whole ramp takes 3 minutes 23 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "400",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 240 to 400 BPM in steps of 7 the ramp holds 23 stops. The steps never land on 400; the last stop is 394 BPM. At 8 measures of 4 beats per stop the whole ramp takes 2 minutes 22 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "400",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 240 to 400 BPM in steps of 33 the ramp holds 5 stops. The steps never land on 400; the last stop is 372 BPM. At 8 measures of 4 beats per stop the whole ramp takes 32 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "240",
+   "400",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 240 to 400 BPM in steps of 100 the ramp holds 2 stops. The steps never land on 400; the last stop is 340 BPM. At 8 measures of 4 beats per stop the whole ramp takes 14 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "60",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "60",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "60",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "60",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "60",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "120",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "120",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "120",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "120",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "120",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "240",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "240",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "240",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "240",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "240",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "400",
+   "1",
+   "4",
+   "8"
+  ],
+  "expected": "From 399 to 400 BPM in steps of 1 the ramp holds 2 stops. At 8 measures of 4 beats per stop the whole ramp takes 10 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "400",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "From 399 to 400 BPM in steps of 5 the ramp holds 1 stop. The steps never land on 400; the last stop is 399 BPM. At 8 measures of 4 beats per stop the whole ramp takes 5 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "400",
+   "7",
+   "4",
+   "8"
+  ],
+  "expected": "From 399 to 400 BPM in steps of 7 the ramp holds 1 stop. The steps never land on 400; the last stop is 399 BPM. At 8 measures of 4 beats per stop the whole ramp takes 5 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "400",
+   "33",
+   "4",
+   "8"
+  ],
+  "expected": "From 399 to 400 BPM in steps of 33 the ramp holds 1 stop. The steps never land on 400; the last stop is 399 BPM. At 8 measures of 4 beats per stop the whole ramp takes 5 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "399",
+   "400",
+   "100",
+   "4",
+   "8"
+  ],
+  "expected": "From 399 to 400 BPM in steps of 100 the ramp holds 1 stop. The steps never land on 400; the last stop is 399 BPM. At 8 measures of 4 beats per stop the whole ramp takes 5 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "1",
+   "1"
+  ],
+  "expected": "One stop of 1 measure at 1 beat each makes 1 beat, which at 60 BPM takes 1 second."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "1",
+   "2"
+  ],
+  "expected": "One stop of 2 measures at 1 beat each makes 2 beats, which at 60 BPM takes 2 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "1",
+   "8"
+  ],
+  "expected": "One stop of 8 measures at 1 beat each makes 8 beats, which at 60 BPM takes 8 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "1",
+   "33"
+  ],
+  "expected": "One stop of 33 measures at 1 beat each makes 33 beats, which at 60 BPM takes 33 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "1",
+   "64"
+  ],
+  "expected": "One stop of 64 measures at 1 beat each makes 64 beats, which at 60 BPM takes 1 minute 4 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "3",
+   "1"
+  ],
+  "expected": "One stop of 1 measure at 3 beats each makes 3 beats, which at 60 BPM takes 3 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "3",
+   "2"
+  ],
+  "expected": "One stop of 2 measures at 3 beats each makes 6 beats, which at 60 BPM takes 6 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "3",
+   "8"
+  ],
+  "expected": "One stop of 8 measures at 3 beats each makes 24 beats, which at 60 BPM takes 24 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "3",
+   "33"
+  ],
+  "expected": "One stop of 33 measures at 3 beats each makes 99 beats, which at 60 BPM takes 1 minute 39 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "3",
+   "64"
+  ],
+  "expected": "One stop of 64 measures at 3 beats each makes 192 beats, which at 60 BPM takes 3 minutes 12 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "4",
+   "1"
+  ],
+  "expected": "One stop of 1 measure at 4 beats each makes 4 beats, which at 60 BPM takes 4 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "4",
+   "2"
+  ],
+  "expected": "One stop of 2 measures at 4 beats each makes 8 beats, which at 60 BPM takes 8 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "4",
+   "8"
+  ],
+  "expected": "One stop of 8 measures at 4 beats each makes 32 beats, which at 60 BPM takes 32 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "4",
+   "33"
+  ],
+  "expected": "One stop of 33 measures at 4 beats each makes 132 beats, which at 60 BPM takes 2 minutes 12 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "4",
+   "64"
+  ],
+  "expected": "One stop of 64 measures at 4 beats each makes 256 beats, which at 60 BPM takes 4 minutes 16 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "7",
+   "1"
+  ],
+  "expected": "One stop of 1 measure at 7 beats each makes 7 beats, which at 60 BPM takes 7 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "7",
+   "2"
+  ],
+  "expected": "One stop of 2 measures at 7 beats each makes 14 beats, which at 60 BPM takes 14 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "7",
+   "8"
+  ],
+  "expected": "One stop of 8 measures at 7 beats each makes 56 beats, which at 60 BPM takes 56 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "7",
+   "33"
+  ],
+  "expected": "One stop of 33 measures at 7 beats each makes 231 beats, which at 60 BPM takes 3 minutes 51 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "7",
+   "64"
+  ],
+  "expected": "One stop of 64 measures at 7 beats each makes 448 beats, which at 60 BPM takes 7 minutes 28 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "12",
+   "1"
+  ],
+  "expected": "One stop of 1 measure at 12 beats each makes 12 beats, which at 60 BPM takes 12 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "12",
+   "2"
+  ],
+  "expected": "One stop of 2 measures at 12 beats each makes 24 beats, which at 60 BPM takes 24 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "12",
+   "8"
+  ],
+  "expected": "One stop of 8 measures at 12 beats each makes 96 beats, which at 60 BPM takes 1 minute 36 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "12",
+   "33"
+  ],
+  "expected": "One stop of 33 measures at 12 beats each makes 396 beats, which at 60 BPM takes 6 minutes 36 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "60",
+   "12",
+   "64"
+  ],
+  "expected": "One stop of 64 measures at 12 beats each makes 768 beats, which at 60 BPM takes 12 minutes 48 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "20",
+   "12",
+   "64"
+  ],
+  "expected": "One stop of 64 measures at 12 beats each makes 768 beats, which at 20 BPM takes 38 minutes 24 seconds."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "400",
+   "1",
+   "1"
+  ],
+  "expected": "One stop of 1 measure at 1 beat each makes 1 beat, which at 400 BPM takes 0 seconds."
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8",
+   "1"
+  ],
+  "expected": "With 1 minute on the clock, you finish 1 stop, ending at 60 BPM, in 32 seconds. The next stop at 65 BPM asks for 30 seconds."
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8",
+   "2"
+  ],
+  "expected": "With 2 minutes on the clock, you finish 4 stops, ending at 75 BPM, in 1 minute 55 seconds. The next stop at 80 BPM asks for 24 seconds."
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8",
+   "5"
+  ],
+  "expected": "With 5 minutes on the clock, you finish 13 stops, ending at 120 BPM, in 4 minutes 50 seconds. That is the whole ramp, with 10 seconds to spare."
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8",
+   "10"
+  ],
+  "expected": "With 10 minutes on the clock, you finish 13 stops, ending at 120 BPM, in 4 minutes 50 seconds. That is the whole ramp, with 5 minutes 10 seconds to spare."
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8",
+   "600"
+  ],
+  "expected": "With 600 minutes on the clock, you finish 13 stops, ending at 120 BPM, in 4 minutes 50 seconds. That is the whole ramp, with 595 minutes 10 seconds to spare."
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "20",
+   "400",
+   "100",
+   "12",
+   "64",
+   "1"
+  ],
+  "expected": "With 1 minute on the clock, even the first stop at 20 BPM (38 minutes 24 seconds) does not fit."
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "60",
+   "1",
+   "4",
+   "8",
+   "600"
+  ],
+  "expected": "With 600 minutes on the clock, you finish 1 stop, ending at 60 BPM, in 32 seconds. That is the whole ramp, with 599 minutes 28 seconds to spare."
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "19",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "19",
+   "120",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "19",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "19",
+   "4",
+   "8"
+  ],
+  "expected": "From 60 to 120 BPM in steps of 19 the ramp holds 4 stops. The steps never land on 120; the last stop is 117 BPM. At 8 measures of 4 beats per stop the whole ramp takes 1 minute 32 seconds."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "19",
+   "8"
+  ],
+  "expected": "ERR:the beats per measure must be a whole number from 1 to 12"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "19"
+  ],
+  "expected": "From 60 to 120 BPM in steps of 5 the ramp holds 13 stops. At 19 measures of 4 beats per stop the whole ramp takes 11 minutes 30 seconds."
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8",
+   "19"
+  ],
+  "expected": "With 19 minutes on the clock, you finish 13 stops, ending at 120 BPM, in 4 minutes 50 seconds. That is the whole ramp, with 14 minutes 10 seconds to spare."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "120",
+   "60",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "401",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "401",
+   "120",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "401",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "401",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the step must be a whole number from 1 to 100 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "401",
+   "8"
+  ],
+  "expected": "ERR:the beats per measure must be a whole number from 1 to 12"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "401"
+  ],
+  "expected": "ERR:the measures per stop must be a whole number from 1 to 64"
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8",
+   "401"
+  ],
+  "expected": "With 401 minutes on the clock, you finish 13 stops, ending at 120 BPM, in 4 minutes 50 seconds. That is the whole ramp, with 396 minutes 10 seconds to spare."
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "120",
+   "60",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "0",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "0",
+   "120",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "0",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "0",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the step must be a whole number from 1 to 100 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "0",
+   "8"
+  ],
+  "expected": "ERR:the beats per measure must be a whole number from 1 to 12"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "0"
+  ],
+  "expected": "ERR:the measures per stop must be a whole number from 1 to 64"
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8",
+   "0"
+  ],
+  "expected": "ERR:the time budget must be a whole number from 1 to 600 minutes"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "120",
+   "60",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "20.5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "20.5",
+   "120",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "20.5",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "20.5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the step must be a whole number from 1 to 100 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "20.5",
+   "8"
+  ],
+  "expected": "ERR:the beats per measure must be a whole number from 1 to 12"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "20.5"
+  ],
+  "expected": "ERR:the measures per stop must be a whole number from 1 to 64"
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8",
+   "20.5"
+  ],
+  "expected": "ERR:the time budget must be a whole number from 1 to 600 minutes"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "120",
+   "60",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "x",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "x",
+   "120",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "x",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "x",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the step must be a whole number from 1 to 100 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "x",
+   "8"
+  ],
+  "expected": "ERR:the beats per measure must be a whole number from 1 to 12"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "x"
+  ],
+  "expected": "ERR:the measures per stop must be a whole number from 1 to 64"
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8",
+   "x"
+  ],
+  "expected": "ERR:the time budget must be a whole number from 1 to 600 minutes"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "120",
+   "60",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ },
+ {
+  "fn": "stopTruth",
+  "args": [
+   "",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "",
+   "120",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:each tempo must be a whole number from 20 to 400 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the step must be a whole number from 1 to 100 BPM"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "",
+   "8"
+  ],
+  "expected": "ERR:the beats per measure must be a whole number from 1 to 12"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   ""
+  ],
+  "expected": "ERR:the measures per stop must be a whole number from 1 to 64"
+ },
+ {
+  "fn": "budgetTruth",
+  "args": [
+   "60",
+   "120",
+   "5",
+   "4",
+   "8",
+   ""
+  ],
+  "expected": "ERR:the time budget must be a whole number from 1 to 600 minutes"
+ },
+ {
+  "fn": "rampTruth",
+  "args": [
+   "120",
+   "60",
+   "5",
+   "4",
+   "8"
+  ],
+  "expected": "ERR:the end tempo must not be below the start tempo"
+ }
+]
