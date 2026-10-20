@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practice Math - app</title>
+<style>
+  :root { --accent:#6e2a5b; --ink:#2b0f23; --paper:#faf3f8; --soft:#f3e2ee; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2rem 1.2rem; }
+  h1 { font-size:1.8rem; color:var(--accent); }
+  .boundary { margin:1rem 0 1.4rem; }
+  .panel { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1rem 1.1rem; margin-bottom:1.1rem; }
+  h2 { font-size:1.1rem; margin-bottom:.6rem; }
+  p.note { font-size:.9rem; margin-bottom:.4rem; }
+  label { display:block; font-size:.9rem; margin:.45rem 0 .1rem; }
+  input { width:100%; padding:.45rem .55rem; font-size:1rem; border:1px solid #d3a5c4; border-radius:6px; background:#fff; color:var(--ink); }
+  .row2 { display:grid; grid-template-columns:1fr 1fr; gap:.6rem; }
+  .row3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:.6rem; }
+  .out { margin-top:.7rem; font-size:.98rem; background:#fff; border:1px dashed #d3a5c4; border-radius:6px; padding:.6rem .7rem; min-height:2.4rem; overflow-wrap:anywhere; }
+  .out.err { border-color:#b03030; color:#8a1f1f; }
+  footer { margin-top:1.8rem; font-size:.85rem; color:#a06a90; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Practice Math</h1>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    This page works out how long metronome practice takes from the numbers you type. The tempos, steps, measures and time budget are yours to choose. It only counts beats, so it has not heard you play and does not know your instrument, your level, your piece or whether a tempo or a ramp is right for you, and it gives no verdict on your playing or your progress. Every number is your own entry.
+  </div>
+
+  <div class="panel">
+    <h2>The stop truth</h2>
+    <p class="note">How long one stop on the metronome takes. Tempo in BPM, beats per measure, measures per stop.</p>
+    <div class="row3">
+      <div><label for="b">Tempo (BPM)</label><input id="b" type="text" value="60"></div>
+      <div><label for="bt">Beats per measure</label><input id="bt" type="text" value="4"></div>
+      <div><label for="m">Measures per stop</label><input id="m" type="text" value="8"></div>
+    </div>
+    <div class="out" id="a-out"></div>
+  </div>
+
+  <div class="panel">
+    <h2>The ramp truth</h2>
+    <p class="note">How long a whole tempo ramp takes, using the beats and measures above.</p>
+    <div class="row3">
+      <div><label for="s">Start (BPM)</label><input id="s" type="text" value="60"></div>
+      <div><label for="e">End (BPM)</label><input id="e" type="text" value="120"></div>
+      <div><label for="k">Step (BPM)</label><input id="k" type="text" value="5"></div>
+    </div>
+    <div class="out" id="b-out"></div>
+  </div>
+
+  <div class="panel">
+    <h2>The budget truth</h2>
+    <p class="note">How far up the ramp a block of practice time carries you.</p>
+    <div class="row3">
+      <div><label for="t">Time budget (minutes)</label><input id="t" type="text" value="10"></div>
+    </div>
+    <div class="out" id="c-out"></div>
+  </div>
+
+  <footer>Practice Math is exact arithmetic over the numbers you enter. <a href="index.html">Why it exists</a>.</footer>
+</main>
+<script src="engine.js"></script>
+<script>
+  function show(id, fn) {
+    const out = document.getElementById(id);
+    try { out.textContent = fn(); out.classList.remove("err"); }
+    catch (e) { out.textContent = e.message; out.classList.add("err"); }
+  }
+  function recalc() {
+    const v = (id) => document.getElementById(id).value;
+    show("a-out", () => stopTruth(v("b"), v("bt"), v("m")));
+    show("b-out", () => rampTruth(v("s"), v("e"), v("k"), v("bt"), v("m")));
+    show("c-out", () => budgetTruth(v("s"), v("e"), v("k"), v("bt"), v("m"), v("t")));
+  }
+  document.querySelectorAll("input").forEach((el) => {
+    el.addEventListener("input", recalc);
+    el.addEventListener("change", recalc);
+  });
+  recalc();
+</script>
+</body>
+</html>
